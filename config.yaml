@@ -2,7 +2,9 @@ baseURL: 'https://cookiehoodie.github.io/blog'
 languageCode: en-us
 title: Chin Hang's Blog
 theme: papermod
+googleAnalytics: G-LGTT6WLGH5
 params:
+  env: production
   ShowCodeCopyButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
