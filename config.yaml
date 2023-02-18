@@ -1,0 +1,13 @@
+baseURL: 'http://example.org/'
+languageCode: en-us
+title: Chin Hang's Blog
+theme: papermod
+params:
+  ShowCodeCopyButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  comments: true
+  disqusShortname: cookiehoodie
+markup:
+  highlight:
+    lineNos: true
