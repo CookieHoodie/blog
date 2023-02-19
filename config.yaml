@@ -9,7 +9,30 @@ params:
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   comments: true
-  disqusShortname: cookiehoodie
+  label:
+    text: "Chin Hang's Blog"
+    icon: avatar.png
+  homeInfoParams:
+    Title: Welcome to my blog!👋
+    Content: Hope you find something useful here :)
+  socialIcons: # optional
+    - name: "github"
+      url: "https://github.com/CookieHoodie"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/chin-hang-ong/"
 markup:
   highlight:
     lineNos: true
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
+menu:
+  main:
+    - identifier: archive
+      name: Archive
+      url: /archives/
+    - identifier: search
+      name: Search
+      url: /search/
