@@ -14,7 +14,7 @@ params:
     icon: avatar.png
   homeInfoParams:
     Title: Welcome to my blog!👋
-    Content: Hope you find something useful here :)
+    Content: Hope you find something useful here 🎉
   socialIcons: # optional
     - name: "github"
       url: "https://github.com/CookieHoodie"
