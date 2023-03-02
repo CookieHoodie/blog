@@ -15,9 +15,13 @@ Recently, I was building my [portfolio site](https://cookiehoodie.github.io) usi
 
 Since the webpage doesn't change often, the best solution is to utilize static site generation (SSG), which pre-renders the page and thus eliminate the layout shift. Unfortunately, create-react-app doesn't provide the functionality out of the box, and although there are some third-party packages such as react-snap that do the job, they are outdated and don't support the latest React versions.
 
-Therefore, I decided to migrate to Next.js, a popular React framework for building web applications with server-side rendering and static site generation functionalities. The migration process is quite simple, and in this post I will guide you through how I did it, using my own site as example. See [resources](#resources) for the complete code.
+Therefore, I decided to migrate to Next.js, a popular React framework for building web applications with server-side rendering and static site generation functionalities. The migration process is quite simple, and in this post I will guide you through how I did it, using my own site as example. 
 
 ## Getting Started
+
+The complete code changes could be found in [resources](#resources).
+
+### Migrate to Next.js
 
 1. First, uninstall react-scripts and install Next.js:
     ```bash
@@ -144,7 +148,7 @@ Therefore, I decided to migrate to Next.js, a popular React framework for buildi
 
 That's it! We have successfully migrated to Next.js🎉. Now it's time to deploy our static site to production, which is GitHub Pages in our case. 
 
-## Deploy to GitHub Pages
+### Deploy to GitHub Pages
 To streamline the deployment process, we make use of GitHub Action to generate the static assets and deploy it to GitHub Pages whenever the code is pushed to main. Create a file `.github/workflows/gh-pages.yml` with the following content:
 
 ```yaml
@@ -187,7 +191,7 @@ Also, make sure you set the `Settings > Actions > General > Workflow permissions
 
 Now, every time we push our code to the `main` branch of our repository, our website will be deployed automatically👏.
 
-## More About the Migration
+### More About the Migration
 The above migration steps work perfectly for my single-page portfolio site, but there could be many more configurations to do depending on how complex your site is. For example, if your site has multiple routes or has problems resolving image url in production, there may need to be more changes such as adding environment variables. Read more on the [official guide](https://nextjs.org/docs/migrating/from-create-react-app) if you are having issues.
 
 ## Extra: Faster Font Loading 
