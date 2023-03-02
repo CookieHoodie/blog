@@ -1,6 +1,6 @@
 baseURL: 'https://cookiehoodie.github.io/blog'
 languageCode: en-us
-title: Chin Hang's Blog
+title: CH's Blog
 theme: papermod
 googleAnalytics: G-LGTT6WLGH5
 params:
@@ -10,7 +10,7 @@ params:
   ShowBreadCrumbs: true
   comments: true
   label:
-    text: "Chin Hang's Blog"
+    text: "CH's Blog"
     icon: avatar.png
   homeInfoParams:
     Title: Welcome to my blog!👋
