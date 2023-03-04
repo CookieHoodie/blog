@@ -1,6 +1,13 @@
 ---
 title: "Deposit and Withdraw USD on Webull Singapore With 0 Fee"
 date: 2023-03-02T10:48:12+08:00
+showToc: true
+TocOpen: false
+ShowReadingTime: true
+cover:
+    image: "images/cover.png" 
+    alt: "Webull logo" 
+    hidden: false 
 ---
 
 ## Introduction
