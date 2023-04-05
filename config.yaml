@@ -3,6 +3,7 @@ languageCode: en-us
 title: CH's Blog
 theme: papermod
 googleAnalytics: G-LGTT6WLGH5
+enableRobotsTXT: true
 params:
   env: production
   ShowCodeCopyButtons: true
