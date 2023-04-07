@@ -10,12 +10,13 @@ params:
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   comments: true
+  keywords: ["CH", "Blog", "CH's Blog"]
   label:
     text: "CH's Blog"
     icon: avatar.png
   homeInfoParams:
     Title: Welcome to my blog!👋
-    Content: Hope you find something useful here 🎉
+    Content: This is the space where I share my thoughts, experiences, and insights on various tech & non-tech topics. Glad you stopped by and hope you find something useful here! 🎉
   socialIcons: 
     - name: "github"
       url: "https://github.com/CookieHoodie"
