@@ -51,6 +51,9 @@ To be able to load our own plugin, we need to turn on developer mode in Logseq. 
         "description": "Plugin Tutorial",
         "logseq": {
             "main": "dist/index.html"
+        },
+        "scripts": {
+            "build": "parcel build --public-url . --no-source-maps index.html"
         }
     }
     ```
