@@ -1,5 +1,5 @@
 ---
-title: "Experience Buying Keychron From Official Website to Singapore"
+title: "Keychron Singapore - Quick Tip for 15% Off"
 date: 2023-05-12T18:29:12+08:00
 showToc: true
 TocOpen: false
@@ -10,7 +10,9 @@ cover:
     hidden: false 
 ---
 
-**TL;DR You can buy Keychron directly from their official website and ship to Singapore without any extra tax!**
+***2025 Update:** Keychron has [officially arrived in Singapore](https://www.keychronsg.com/), so the price difference may not be as much anymore, but getting directly from the US site can still be a better deal!*
+
+**TL;DR You can buy Keychron directly from their US official website and ship to Singapore without any extra tax!**
 
 # Introduction
 Keychron keyboards sold by dealers in Singapore are usually more expensive than the price on Keychron's official website, not to mention Keychron often has sales that makes the price difference even more stark. 
