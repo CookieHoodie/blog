@@ -6,7 +6,7 @@ TocOpen: false
 ShowReadingTime: true
 cover:
     image: "images/cover.png" 
-    alt: "Keychron keyboard" 
+    alt: "Keychron keyboard Money Hacks" 
     hidden: false 
 ---
 
